@@ -11,7 +11,7 @@ const Index = () => {
   }, []);
 
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+    <Container centerContent maxW="container.md" minHeight="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
         <Heading as="h1" size="2xl">Welcome to My Personal Blog</Heading>
         <Text fontSize="lg">A place where I share my thoughts, experiences, and stories.</Text>
